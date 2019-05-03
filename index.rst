@@ -45,6 +45,7 @@ It's what I wish I had discovered several years ago, when I was exactly in that 
     deploy-project
     local-set-up
     explore-local-docker-docker-compose
+    explore-local-docker-dockerfile
     local-development
     cloud-deployment
     adapting-to-containerisation
