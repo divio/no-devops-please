@@ -1,4 +1,4 @@
-Adapting to containerised ways of working
+Adapting to containerised ways of working (in progress)
 ============================================================
 
 You can't just SSH into your server anymore

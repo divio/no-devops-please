@@ -1,4 +1,4 @@
-Deploying to the cloud
+Deploying to the cloud (in progress)
 ============================================================
 
 You might be used to having direct access to, and control of, your project in deployment, or deployed your projects in
