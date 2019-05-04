@@ -77,7 +77,7 @@ there.
 
 So, add your requirements to the ``requirements.in`` file (that's processed by the ``Dockerfile``), say::
 
-    django-axes==5.0
+    django-axes==3.0.3
 
 and run::
 
@@ -88,9 +88,35 @@ instructions work.
 
 ..  note::
 
-    Notice that we specified ``django-axes==5.0``. That's always a good idea. Otherwise, if Django Axes 5.1 comes along
-    in a couple of weeks' time and introduces a dependency conflict, we don't want to find it appearing in our project
-    next time we run ``build``.
+    Notice that we specified ``django-axes==3.0.3``. That's always a good idea. Otherwise, if a newer version of Django
+    Axes comes along in a couple of weeks' time and introduces a dependency conflict or requires a different set-up
+    process (this is in fact what version 4 does), we don't want to find it appearing in our project next time we run
+    ``build``.
+
+The only configuration required for Django Axes is to add it to the ``INSTALLED_APPS`` in ``settings.py``. Do that like
+this:
+
+..  code-block:: python
+    :emphasize-lines: 4
+
+    # <INSTALLED_ADDONS>  # Warning: text inside the INSTALLED_ADDONS tags is auto-generated. Manual changes will be overwritten.
+    [...]
+    # </INSTALLED_ADDONS>
+    django-axes==3.0.3
+
+At this point, you're thinking *That doesn't look like a normal settings file.* Don't worry about it now - it
+will turn out to be fairly standard when you look more closely, and we'll explain it all more fully in a couple of
+pages' time.
+
+You will need to run migrations::
+
+    docker-compose run --rm web python manage.py migrate
+
+And here's Django Axes in the admin:
+
+.. image:: /images/axes.png
+   :alt: 'Django Axes in the admin'
+   :width: 663
 
 
 Advantages and disadvantages
