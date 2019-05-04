@@ -39,14 +39,15 @@ It's what I wish I had discovered several years ago, when I was exactly in that 
     :maxdepth: 2
     :caption: Contents
 
-    requirements
-    installation
-    create-project
-    deploy-project
-    local-set-up
-    explore-local-docker-docker-compose
-    explore-local-docker-dockerfile
-    local-development
-    cloud-deployment
-    adapting-to-containerisation
-    external-services
+    10-requirements
+    20-installation
+    30-create-project
+    40-deploy-project
+    50-local-set-up
+    60-explore-local-docker-docker-compose
+    70-explore-local-docker-dockerfile
+    75-ways-of-thinking.rst
+    80-local-development
+    90-cloud-deployment
+    100-adapting-to-containerisation
+    110-external-services

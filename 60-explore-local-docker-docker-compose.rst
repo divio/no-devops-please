@@ -42,6 +42,8 @@ The ``web`` service
 Docker Compose needs to know where to find the instructions to build the image for this container - the answer is right
 here, because that's where the ``Dockerfile`` is.
 
+.. _default-web-command:
+
 ..  code-block:: yaml
 
     command: python manage.py runserver 0.0.0.0:80
