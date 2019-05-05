@@ -105,8 +105,8 @@ this:
     django-axes==3.0.3
 
 At this point, you're thinking *That doesn't look like a normal settings file.* Don't worry about it now - it
-will turn out to be fairly standard when you look more closely, and we'll explain it all more fully in a couple of
-pages' time.
+will turn out to be fairly standard when you look more closely, and :ref:`we'll explain it more fully in a couple of
+pages' time <settings>`.
 
 You will need to run migrations::
 

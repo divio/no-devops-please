@@ -70,6 +70,7 @@ On other systems
 -----------------
 
 On other systems, the details of these limitations and alternatve ways of interacting with the services of your site
-will differ, but the principle is always the same. Instead of being immediately available to you, they will be a little
-more removed. This will require you to adapt to different ways of working - but with a ittle effort, you will find that you gaim more than it costs you.
+will differ, but **the principle is always the same**. Instead of being immediately available to you, they will be a
+little more removed. This will require you to adapt to different ways of working - but with a ittle effort, you will
+find that you gaim more than it costs you.
 

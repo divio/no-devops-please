@@ -15,9 +15,9 @@ In containerised deployment, your final product is cheap and disposable. It's no
 instance, infinitely reproducible, of an image, and what's precious are the *instructions* that are followed to
 assemble that image.
 
-What matters is not the thing we build, but the instructions we buid it with.
+What matters is *not the thing we build*, but *the instructions we build it with*.
 
-So: **stop caring about the things you build**.
+So: **stop working on the things you build**.
 
 In a way, this is the central lesson of this workshop, and once you have internalised it, you will find working with
 containerisation much easier.
@@ -48,5 +48,8 @@ what you asked for, and you won't have the opportunity to fix things up as you g
 
 It's the difference between preparing for a night camping at the bottom of your own garden, and getting a rocket ready
 for a trip to the moon.
+
+One bit of good news is that Platform-as-a-service systems provide most of the instructions (well-tested,
+expertly-written) for you - you only need to make your amendments.
 
 With these thoughts in mind, let's continue to discover their consequences.
