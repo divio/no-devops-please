@@ -99,10 +99,11 @@ this:
 ..  code-block:: python
     :emphasize-lines: 4
 
-    # <INSTALLED_ADDONS>  # Warning: text inside the INSTALLED_ADDONS tags is auto-generated. Manual changes will be overwritten.
-    [...]
-    # </INSTALLED_ADDONS>
-    django-axes==3.0.3
+    # all django settings can be altered here
+
+    INSTALLED_APPS.extend([
+        "axes",
+    ])
 
 At this point, you're thinking *That doesn't look like a normal settings file.* Don't worry about it now - it
 will turn out to be fairly standard when you look more closely, and :ref:`we'll explain it more fully in a couple of
