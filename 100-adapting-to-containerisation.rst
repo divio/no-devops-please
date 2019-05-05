@@ -46,7 +46,7 @@ See `Interact with the Cloud database
 <http://docs.divio.com/en/latest/how-to/interact-database.html#interact-cloud-db>`_ for more.
 
 
-You can's store media files the way you once did
+You can't store media files the way you once did
 ------------------------------------------------------
 
 Although container instance running your application will have its own local file storage, this will be **independent**
