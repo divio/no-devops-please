@@ -112,3 +112,7 @@ it: ``docker-compose build``.
 It builds the ``web`` container, but not the ``db`` container. That's because it doesn't need to. The ``db`` container,
 as you can see from the ``docker-compose.yml`` file above, uses an off-the-shelf image. In Docker, images can be
 built and saved for re-use, saving time and making things repeatable.
+
+..  admonition:: Divio Cloud developer handbook links
+
+    * `docker-compose.yml in Divio Cloud projects <http://docs.divio.com/en/latest/reference/docker-docker-compose.html>`_

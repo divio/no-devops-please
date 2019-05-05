@@ -17,7 +17,7 @@ assemble that image.
 
 What matters is *not the thing we build*, but *the instructions we build it with*.
 
-So: **stop working on the things you build**.
+So: **stop working on the construction; work on instruction**.
 
 In a way, this is the central lesson of this workshop, and once you have internalised it, you will find working with
 containerisation much easier.

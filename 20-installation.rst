@@ -19,3 +19,7 @@ or if you prefer to have more control:
 * the Divio CLI: ``pip install divio-cli``
 
 (You can of course do both. And you don't need to do them right now anyway.)
+
+..  admonition:: Divio Cloud developer handbook links
+
+    `Divio CLI reference <http://docs.divio.com/en/latest/reference/divio-cli.html>`_

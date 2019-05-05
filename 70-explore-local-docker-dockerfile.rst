@@ -79,3 +79,7 @@ Run ``collectstatic``
 ..  code-block:: yaml
 
     RUN DJANGO_MODE=build python manage.py collectstatic --noinput
+
+..  admonition:: Divio Cloud developer handbook links
+
+    * `The Dockerfile in Divio Cloud projects <http://docs.divio.com/en/latest/reference/docker-dockerfile.html>`_

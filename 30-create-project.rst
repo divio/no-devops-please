@@ -40,6 +40,11 @@ will want to get your hands on. To the greatest extent possible, this applicatio
 It should not care whether it is to be deployed on Divio Cloud or on some other platform (just like your skills, this
 application should be transferable with minimum extra work).
 
+..  admonition:: Divio Cloud developer handbook links
+
+    * `Version control for your Divio projects <http://docs.divio.com/en/latest/background/version-control.html>`_
+    * `How to configure a Git remote for your project <http://docs.divio.com/en/latest/how-to/resources-configure-git.html#configure-version-control>`_
+
 
 Services have been provisioned
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -66,3 +71,8 @@ files for different environments. It's a good idea to keep those things **out** 
 
 So, we store them in environment variables, and each environment has its own set of variables. All the repository
 contains is a way to look for the variables and turn them into the appropriate Django settings.
+
+..  admonition:: Divio Cloud developer handbook links
+
+    `Divio CLI reference <http://docs.divio.com/en/latest/reference/divio-cli.html>`_
+

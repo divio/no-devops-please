@@ -106,7 +106,7 @@ this:
     ])
 
 At this point, you're thinking *That doesn't look like a normal settings file.* Don't worry about it now - it
-will turn out to be fairly standard when you look more closely, and :ref:`we'll explain it more fully in a couple of
+will turn out to be fairly standard when you look more closely, and :ref:`we'll explain it more fully in a few
 pages' time <settings>`.
 
 You will need to run migrations::
@@ -230,6 +230,11 @@ Now you can access the database using your Postgres tool of choice. For example,
 line tool, you can connect to the project database with::
 
     psql -h 127.0.0.1 -U postgres db
+
+
+..  admonition:: Divio Cloud developer handbook links
+
+    * `How to interact with your project’s database <http://docs.divio.com/en/latest/how-to/interact-database.html>`_
 
 
 Common operations
