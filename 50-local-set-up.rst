@@ -7,11 +7,14 @@ how the system works.
 On different systems there will be different ways of doing this, and some will offer more extensive local tooling than
 others.
 
+Three options for setting up Divio Cloud projects locally
+---------------------------------------------------------
+
 On Divio Cloud you have three ways of doing it - read through the options before deciding which to use:
 
 
 Use the Divio app
----------------------------------------
+~~~~~~~~~~~~~~~~~
 
 (Requires you to have :ref:`installed the Divio app <installation>`.)
 
@@ -23,7 +26,7 @@ Select your project, and hit **Set up project**.
 
 
 Use the Divio shell
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 (Requires you to have :ref:`installed the Divio app <installation>`.)
 
@@ -43,7 +46,7 @@ in to your Divio account, and can communicate with our Git server.
 
 
 Use your own shell
-------------------
+~~~~~~~~~~~~~~~~~~~
 
 The two methods above are quick ways to get started, because they do some configuration for you. However, you may find
 it more convenient to interact with your projects from your own familiar local environment if you're going to be using
@@ -57,7 +60,7 @@ Then run ``divio project setup <project slug>``.
 
 
 The local build process
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 What happens when you set up the project locally is almost the same as what happens on the Cloud, and you can
 watch it happening in the console.
@@ -83,7 +86,7 @@ Finally, the Divio CLI will pull down the database and media from your Test serv
 
 
 Running the local site
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 We won't talk about *local deployment* here, it's not really the right term. Instead, what we will do is get the local
 site up and running. This includes some steps that are *in some ways* the analogue of what happens in a Cloud
