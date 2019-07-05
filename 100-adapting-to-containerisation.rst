@@ -7,6 +7,7 @@ directly.
 
 You have to do things differently. For example...
 
+.. _no-ssh:
 
 You can't just SSH into your server any more
 --------------------------------------------

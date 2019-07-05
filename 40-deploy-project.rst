@@ -5,8 +5,8 @@ The project exists, but isn't actually running yet. Let's deploy it: hit **Deplo
 
 This will take about three or four minutes.
 
-What happens during the deployment process
--------------------------------------------
+What happens during the Docker deployment process
+-------------------------------------------------
 
 This is a two-part process; first an **image is built**; then, a **container is deployed** (more on images and
 containers later).
