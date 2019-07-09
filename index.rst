@@ -12,14 +12,25 @@ technology and Platform-as-a-service systems.
 This hands-on workshop will expand your repertoire and put new components in your developer's toolbox - and will help
 ensure you never find yourself having to answer to a pager in the middle of the night.
 
-The examples and exercises in the workshop will be based on a workflow using the `Docker <http://docker.com>`_-based `Divio Cloud platform <http://divio.com>`_. We will also use
+The examples and exercises in the workshop will be based on a workflow using:
 
-* `Django <https://djangoproject.com>`_
-* `AWS <https://aws.amazon.com>`_
-* `Sentry <http://sentry.io>`_
-* `Elastic search <https://www.elastic.co/products/elasticsearch>`_
+* `Docker <http://docker.com>`_, with the
+* `Divio Cloud platform <http://divio.com>`_ and
+* `AWS <https://aws.amazon.com>`_.
 
-... and other tools, but it's about **skills**, not **tools** - and *all the skills are transferable*.
+We will also use:
+
+* `Django <https://djangoproject.com>`_ (some basic skills required)
+* `LogDNA <https://logdna.com>`_
+* `Sentry <http://sentry.io>`_ (to be completed)
+* `Elastic search <https://www.elastic.co/products/elasticsearch>`_ (to be completed)
+
+... and other tools, but it's about **skills**, not **tools** - and *all the
+skills are transferable*. The purpose of the workshop is to help you become
+familiar woth a mindset and way of working that:
+
+* **allows you to stop worrying about servers and deployment**
+* ... **by making use of services that take care of that for you**.
 
 
 Who is this for?
