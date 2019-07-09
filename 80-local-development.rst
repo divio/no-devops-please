@@ -13,20 +13,20 @@ For example...
 Installing packages
 -------------------
 
-Perhaps you're used to pip installing Python packages as you develop:
+Perhaps you're used to installing Python or other packages as you develop:
 
 * <code> <code> <code>
-* ``pip install some-package``
+* ``pip install some-package`` or ``apt-get install whatever>``
 * <code> <code> <code>
 
 This isn't going to work in the same way - and it's one of the most common stumbling-blocks for programmers getting
 used to containerisation. You're going to have to get into the container first.
 
 
-Get into the container to use pip
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Get into the container
+~~~~~~~~~~~~~~~~~~~~~~
 
-You can't just run ``pip install`` - you have to run it inside the web container. To do that, you can do
+You can't just run ``pip install`` or ``apt-get`` - you have to run it inside the web container. To do that, you can do
 ``docker-compose run web`` followed by the command you want. For example::
 
     docker-compose run web bash
@@ -75,6 +75,9 @@ thinking about *building* your system, and to think instead about *describing* i
 to the container, we should attend to the *instructions* that build the container, and take care of our installation
 there.
 
+Python packages
+^^^^^^^^^^^^^^^
+
 So, add your requirements to the ``requirements.in`` file (that's processed by the ``Dockerfile``), say::
 
     django-axes==3.0.3
@@ -118,6 +121,16 @@ And here's Django Axes in the admin:
 .. image:: /images/axes.png
    :alt: 'Django Axes in the admin'
    :width: 663
+
+
+System packages
+^^^^^^^^^^^^^^^
+
+For lower-level system packages we can place the instructions directly in the Dockerfile. Say for example that we need Python Open CV in the project. Then, you would add the ``apt`` commands there, for example::
+
+    RUN apt-get update && apt-get install -y python-opencv
+
+This should be placed fairly early on in the ``Dockerfile``.
 
 
 Advantages and disadvantages

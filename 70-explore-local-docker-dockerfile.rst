@@ -1,7 +1,9 @@
 Explore the ``Dockerfile``
 ============================================================
 
-Now let's take a look at the ``Dockerfile``. This is the file that defines your web application *image*.
+Now let's take a look at the ``Dockerfile``. This is the file that defines your
+web application *image*. (The ``db`` image doesn't have a ``Dockerfile``
+associated with it - it's a pre-built image.)
 
 .. image:: /images/dockerfile.png
    :alt: 'The Dockerfile'
