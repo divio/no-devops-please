@@ -16,7 +16,7 @@ The examples and exercises in the workshop will be based on a workflow using:
 
 * `Docker <http://docker.com>`_, with the
 * `Divio Cloud platform <http://divio.com>`_ and
-* `AWS <https://aws.amazon.com>`_.
+* `Amazon Web Services <https://aws.amazon.com>`_.
 
 We will also use:
 
