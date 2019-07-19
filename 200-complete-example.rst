@@ -24,7 +24,7 @@ Check that it runs as expected: ``cd`` into the project, and run::
 
     docker-compose up
 
-You can log into it at localhost:8000/django-admin, and see the Wagtail admin at localhost:8000/admin.
+You can log into it at http://localhost:8000/django-admin, and see the Wagtail admin at http://localhost:8000/admin.
 
 
 Build a new application
