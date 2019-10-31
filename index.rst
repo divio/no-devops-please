@@ -18,12 +18,14 @@ The examples and exercises in the workshop will be based on a workflow using:
 * `Divio Cloud platform <http://divio.com>`_ and
 * `Amazon Web Services <https://aws.amazon.com>`_.
 
-We will also use:
+We will also work with:
 
-* `Django <https://djangoproject.com>`_ (some basic skills required)
-* `LogDNA <https://logdna.com>`_
-* `Sentry <http://sentry.io>`_ (to be completed)
-* `Elastic search <https://www.elastic.co/products/elasticsearch>`_ (to be completed)
+* `Django <https://djangoproject.com>`_
+* Django reusable applications including `Django Axes <https://github.com/jazzband/django-axes>`_ and `Django
+  Photologue <https://django-photologue.readthedocs.io/en/stable/>`_
+* `LogDNA <https://logdna.com>`_ and `Azure cognitive services <https://azure.microsoft.com/en-gb/>`_
+* system-level libraries for image handling and processing
+
 
 ... and other tools, but it's about **skills**, not **tools** - and *all the
 skills are transferable*. The purpose of the workshop is to help you become
@@ -46,20 +48,40 @@ habits and ways of working. This workshop is intended to ease you along that pat
 It's what I wish I had discovered several years ago, when I was exactly in that position.
 
 
+..  _requirements:
+
+Before you start
+-----------------------------
+
+..  toctree::
+    :maxdepth: 1
+
+    10-prerequisites
+
+
+Workshop steps
+--------------
+
+**The pages in this section cover what you will do.** In this workshop, you will learn by doing. Understanding always
+comes after doing. I will not explain much in this section, but the exercises are designed to help you discover
+key principles. Occasionally, links will be provided to *Further reading* sections. These are optional, and it's
+recommended to use them *after* you have successfully *done* the relevant tasks.
+
 ..  toctree::
     :maxdepth: 2
-    :caption: Contents
 
-    10-requirements
-    20-installation
-    30-create-project
-    40-deploy-project
-    50-local-set-up
-    60-explore-local-docker-docker-compose
-    70-explore-local-docker-dockerfile
-    75-ways-of-thinking.rst
-    80-local-development
-    90-cloud-deployment
-    100-adapting-to-containerisation
-    110-external-services
-    200-complete-example
+    the-workshop/index
+
+
+Further reading
+---------------
+
+**The pages in this section contain optional, additional explanation.** The secret of learning is that you don't need to
+understand the thing you are learning - *doing* is far more valuable. All the same, once you have learned some basic
+things you will be ready for deeper explanation. The pages in this section are all linked to from pages in the previous
+section.
+
+..  toctree::
+    :maxdepth: 2
+
+    explanation/index
