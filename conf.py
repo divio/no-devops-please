@@ -12,7 +12,7 @@
 #
 import os
 import sys
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
@@ -62,3 +62,27 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+extensions = [
+    'extensions',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    ]
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {
+    'python': (
+        'http://docs.python.org/3/',
+        None
+        ),
+    'django': (
+        'https://docs.djangoproject.com/en/1.11/',
+        'https://docs.djangoproject.com/en/1.11/_objects/'
+        ),
+}
+
+html_theme_options = {
+    'style_external_links': True,
+    'titles_only': True
+}
