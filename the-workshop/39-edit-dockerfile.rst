@@ -57,7 +57,7 @@ you can launch a Python shell directly with:
 
 ..  code-block:: bash
 
-    docker-compose bash
+    docker-compose run web bash
 
 and then run:
 
