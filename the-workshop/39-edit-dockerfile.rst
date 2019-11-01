@@ -37,7 +37,7 @@ Use ``RUN`` to install a package in the image
 We want to add the commands we used (``apt-get update`` and ``apt-get install libwebp-dev`` to install ``libwebp-dev``.
 Add two lines as indicated:
 
-..  code-block::
+..  code-block:: Dockerfile
     :emphasize-lines: 3-4
 
     FROM divio/base:4.15-py3.6-slim-stretch
