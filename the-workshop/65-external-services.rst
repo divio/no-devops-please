@@ -61,7 +61,7 @@ provide you with an *ingestion key*.
 Install the ``logdna`` package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ``logdna` package provides a new logging handler (``logdna.LogDNAHandler``) that will forward log messages to
+The ``logdna`` package provides a new logging handler (``logdna.LogDNAHandler``) that will forward log messages to
 LogDNA.
 
 Add ``logdna`` to your project's requirements and rebuild the project (``docker-compose build``).
