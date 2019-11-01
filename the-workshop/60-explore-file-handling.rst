@@ -5,7 +5,7 @@ Explore file handling
 
     * devolved media storage
 
-In this section we will explore an aspect of containerised deployment that often takes people by surprised. It's
+In this section we will explore an aspect of containerised deployment that often takes people by surprise. It's
 related to the *statelessness* and *lack of persistence* of the containerised environment, and has various
 implications, not just for deployment, but also for how your code handles files.
 
