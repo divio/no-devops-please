@@ -30,6 +30,12 @@ Upload your public key to the Divio Control Panel
 
 Upload your public key to https://control.divio.com/account/ssh-keys/
 
+..  note::
+
+    If you need help with setting up public keys, see `GitHub's excellent guide
+    <https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+    `_.
+
 
 Set up your project locally
 ------------------------------
@@ -57,11 +63,10 @@ This will *build* your project.
     <explanation-local-build>`
 
 
-
 Run the local site with ``docker-compose up``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To get the site up and running, execute::
+``cd`` into the project directory, and to get the site up and running, execute::
 
     docker-compose up
 

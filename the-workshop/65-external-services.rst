@@ -77,10 +77,8 @@ It's beyond the scope of this document to go into details of logging configurati
 * this makes the ``LOGGING`` dictionary available in ``settings.py``
 * we will extend that, by adding a new logger and handler configuration.
 
-Add the new configuration to the end of your ``settings.py``.
-
-The LogDNA library provides a logging handler, via the class
-``logdna.LogDNAHandler``; add:
+The LogDNA library provides a logging handler, via the class ``logdna.LogDNAHandler``. Add the new configuation to the
+*end* of your ``settings.py``:
 
 ..  code-block:: python
 

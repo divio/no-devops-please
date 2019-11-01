@@ -22,6 +22,11 @@ You can use the link in the Control Panel to access the *Test* server of your pr
 
 You can now log in to the Django admin.
 
+.. image:: /images/log-in.png
+   :alt: 'Log in with Divio'
+   :width: 400px
+
+
 ..  admonition:: Explanation
 
     Further reading: :ref:`What exactly happens on Divio when a project is deployed? <explanation-project-deployment>`

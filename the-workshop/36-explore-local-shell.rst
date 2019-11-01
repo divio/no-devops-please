@@ -139,13 +139,7 @@ You may be surprised (or annoyed) to find that it fails, as if you had never ins
 every time your environment is launched, it is created anew from the image. Nothing you do to the container *persists*.
 The container is **stateless**.
 
-You can see the same thing with the Python packages in the environment. In your container's Bash shell, run pip list
-again. You will see that ``django-axes 3.0.3`` is installed. If you run::
-
-    pip uninstall django-axes
-
-it will be removed - *but only until the next time you launch a container from the image*. Just as you baked
-``django-axes`` into the image by adding it to the ``requirements.in`` file, if you want to install ``libwebp-dev`` so
-that it is available to the environment every time, you will need to make the installation part of the *image*.
+If we need something to persist in the environment, it will need to be baked into the image itself.
 
 We will do this in the next section by editing the ``Dockerfile``.
+
