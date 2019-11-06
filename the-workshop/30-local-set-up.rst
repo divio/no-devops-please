@@ -33,8 +33,7 @@ Upload your public key to https://control.divio.com/account/ssh-keys/
 ..  note::
 
     If you need help with setting up public keys, see `GitHub's excellent guide
-    <https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
-    `_.
+    <https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>`_.
 
 
 Set up your project locally
