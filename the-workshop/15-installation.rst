@@ -13,9 +13,9 @@ You will need to install:
 Docker and Docker Compose
 -------------------------
 
-* `Docker for Mac <https://docs.docker.com/docker-for-mac/>`_
-* `Docker for Windows <https://docs.docker.com/docker-for-windows/>`_
-* `Docker CE for your Linux <https://docs.docker.com/install/#server>`_ and `Docker Compose
+* Macintosh users: `Docker for Mac <https://docs.docker.com/docker-for-mac/>`_
+* Windows users: `Docker for Windows <https://docs.docker.com/docker-for-windows/>`_
+* Linux users: `Docker CE <https://docs.docker.com/install/#server>`_ and `Docker Compose
   <https://docs.docker.com/compose/install/>`_
 
 
