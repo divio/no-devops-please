@@ -68,7 +68,7 @@ In this case, the container is launched and remains running while we work in it.
 
 ..  code-block:: bash
 
-    # python
+    /app# python
     Starting example_db_1 ... done
     Python 3.6.8 (default, Mar 27 2019, 08:53:45)
     [GCC 6.3.0 20170516] on linux
@@ -102,11 +102,11 @@ Exit the Python shell, and use ``apt`` for the installation:
 
 ..  code-block:: bash
 
-    # apt-get update
+    /app# apt-get update
     Ign:1 http://deb.debian.org/debian stretch InRelease
     [...]
     Reading package lists... Done
-    # apt-get install libwebp-dev
+    /app# apt-get install libwebp-dev
     Reading package lists... Done
     [...]
     Processing triggers for libc-bin (2.24-11+deb9u4) ...
