@@ -15,7 +15,7 @@ A repository is created
 -----------------------
 
 The system creates a new repository. As an *application developer*, you could in fact have created that repository and
-everything in it yourself, but in things case, it's created for you. You might even prefer to, and on some platforms you
+everything in it yourself, but in this case, it's created for you. You might even prefer to, and on some platforms you
 would be required to. For now, since the Divio Control Panel can do this for us, let's work with it and consider
 alternatives later.
 
@@ -30,7 +30,7 @@ application should be transferable with minimum extra work).
 
 ..  admonition:: Divio Cloud developer handbook links
 
-    * `Version control for your Divio projects <http://docs.divio.com/en/latest/background/version-control.html>`_
+    * `Version control for your Divio projects <http://docs.divio.com/en/latest/background/project-version-control.html>`_
     * `How to configure a Git remote for your project
       <http://docs.divio.com/en/latest/how-to/resources-configure-git.html#configure-version-control>`_
 
