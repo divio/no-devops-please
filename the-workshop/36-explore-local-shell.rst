@@ -106,6 +106,7 @@ Exit the Python shell, and use ``apt`` for the installation:
     Ign:1 http://deb.debian.org/debian stretch InRelease
     [...]
     Reading package lists... Done
+    
     /app# apt-get install libwebp-dev
     Reading package lists... Done
     [...]
