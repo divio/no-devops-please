@@ -29,7 +29,7 @@ We will also work with:
 
 ... and other tools, but it's about **skills**, not **tools** - and *all the
 skills are transferable*. The purpose of the workshop is to help you become
-familiar woth a mindset and way of working that:
+familiar with a mindset and way of working that:
 
 * **allows you to stop worrying about servers and deployment**
 * ... **by making use of services that take care of that for you**.
